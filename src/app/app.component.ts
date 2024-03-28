@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-unit-test';
+  showmsg(msg:any): string{
+    return msg
+  }
 }
